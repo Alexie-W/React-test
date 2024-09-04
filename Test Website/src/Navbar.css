@@ -1,0 +1,30 @@
+nav{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: dashed;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        font-size: 8vw;
+    }
+}
